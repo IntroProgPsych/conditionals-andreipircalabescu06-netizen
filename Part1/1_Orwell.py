@@ -9,3 +9,5 @@
 # Orwell
 
 # Write your code here:
+number = int(input(" Please write an integer number "))
+if number==1984 : print("Orwell") 

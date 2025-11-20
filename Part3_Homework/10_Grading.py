@@ -7,3 +7,18 @@
 # 70-79: C
 # 60-69: D
 # Below 60: F
+print("Enter the student's score:")
+score = float(input())
+if score >= 90:
+    grade = 'A'
+elif score >= 80:
+    grade = 'B'
+elif score >= 70:
+    grade = 'C'
+elif score >= 60:
+    grade= 'D'
+else:
+    grade = 'F'
+    print(f"The letter grade is: {grade}")
+print(f"The letter grade is: {grade}")
+

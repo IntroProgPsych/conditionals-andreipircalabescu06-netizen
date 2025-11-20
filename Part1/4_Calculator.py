@@ -29,4 +29,14 @@
 # 4 - 6 = -2
 
 # Write your code here:
-
+Number1=int(input("Please type in Number 1"))
+Number2=int(input("Please type in Number 2"))
+Operation=input("Please type in the Operation")
+if Operation== " Add" :
+    print(Number1+Number2)
+elif Operation== " Multiply" :
+    print(Number1*Number2)
+elif Operation== " Subtract" :
+    print(Number1-Number2) 
+else:
+    print(" ")
