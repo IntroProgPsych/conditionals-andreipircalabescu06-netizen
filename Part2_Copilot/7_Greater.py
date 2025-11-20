@@ -20,3 +20,8 @@
 # The numbers are equal!
 
 # Write your code here:
+number1=int(input(" Please type in the first integer number "))
+number2=int(input(" Please type in the second integer number"))
+if number1 > number2 : print("The greater number was: " + str(number1))
+elif number2 > number1 : print("The greater number was: " + str(number2))
+else : print("The numbers are equal!") 
